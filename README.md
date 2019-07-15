@@ -1,7 +1,14 @@
-# <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/11a10a01-ac23-4fea-ad5a-b51f53084159/d8opy2w-d1837851-b90d-4702-ab3b-2521d77a58f6.png/v1/fill/w_800,h_238,strp/pong_logo_by_ringostarr39_d8opy2w-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjM4IiwicGF0aCI6IlwvZlwvMTFhMTBhMDEtYWMyMy00ZmVhLWFkNWEtYjUxZjUzMDg0MTU5XC9kOG9weTJ3LWQxODM3ODUxLWI5MGQtNDcwMi1hYjNiLTI1MjFkNzdhNThmNi5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.7KprYan6O9_TRP4rSYCt8tI4Et2SsNPhG3SV2jAwC3w" width="30%">
+<h1 align="center">
+  <br>
+  <a href=""><img src="https://github.com/angelortizv/Pong/blob/master/img/pong_logo.png" width="350"></a>
+  <br>
+</h1>
 
 <h5 align="center">Live Preview: https://angelortizv.github.io/Pong/index.html </h5>
 
+<h1 align="center">
+  <a href="https://angelortizv.github.io/Pong/index.html"><img src="https://res.cloudinary.com/dek4evg4t/image/upload/v1563160286/Screenshot_from_2019-07-14_21.08.54.png"></a>
+</h1>
 
 
 ## Motivation
