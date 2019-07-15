@@ -1,3 +1,7 @@
+body {
+    background-color: #2E2E2E;
+}
+
 canvas{
     background: #eee;
     display: block;
@@ -7,4 +11,17 @@ canvas{
     left: 0;
     right: 0;
     margin: auto;
+}
+
+.pong_logo{
+    width: 350px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.game-instructions{
+    text-align: center;
 }
