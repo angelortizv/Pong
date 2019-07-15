@@ -18,7 +18,7 @@ var playerPaddle = {
     score: 0
 };
 
-var computerPaddle = {
+var oponentPaddle = {
     width: 15,
     height: 90,
     x: canvas.width - 35,
@@ -58,7 +58,6 @@ var ball = {
     }
 };
 
-
 function drawRect(object) {
     ctx.beginPath();
     ctx.rect(object.x, object.y, object.width, object.height);
@@ -83,7 +82,7 @@ function drawNet(width, height, padding) {
 function drawScore() {
     ctx.font = '50px Arial';
     ctx.fillText(playerPaddle.score, canvas.width / 2 - 50, 50);
-    ctx.fillText(computerPaddle.score, canvas.width / 2 + 20, 50);
+    ctx.fillText(oponentPaddle.score, canvas.width / 2 + 20, 50);
 }
 
 function collisionDetection(rect1, rect2) {
@@ -103,10 +102,10 @@ function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawRect(ball);
     drawRect(playerPaddle);
-    drawRect(computerPaddle);
+    drawRect(oponentPaddle);
     drawNet(3, 10, 10);
     drawScore();
-    computerPaddle.track();
+    oponentPaddle.track();
 
     if (ball.y <= 0 || ball.y + ball.height >= canvas.height) {
         ball.vy = -ball.vy;
@@ -117,15 +116,15 @@ function draw() {
         reflectBall(playerPaddle);
     }
 
-    if (collisionDetection(ball, computerPaddle)) {
+    if (collisionDetection(ball, oponentPaddle)) {
         if (ball.vx > 0) {
             ball.vx = -ball.vx;
-            reflectBall(computerPaddle);
+            reflectBall(oponentPaddle);
         }
     }
 
     if (ball.x < 0) {
-        computerPaddle.score++;
+        oponentPaddle.score++;
         ball.serve(1);
     }
     if (ball.x > canvas.width) {
