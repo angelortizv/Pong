@@ -62,7 +62,7 @@ var ball = {
 function drawRect(object) {
     ctx.beginPath();
     ctx.rect(object.x, object.y, object.width, object.height);
-    ctx.fillStyle = '#efefef';
+    ctx.fillStyle = '#f7ff1c';
     ctx.fill();
     ctx.closePath();
 }
